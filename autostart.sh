@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# wget -qO- https://raw.githubusercontent.com/coindroid/utils/main/autostart.sh | bash
 SERVICE_NAME=${PWD##*/}
 SERVICE_SLUG=${SERVICE_NAME// /_}
 
